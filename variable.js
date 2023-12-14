@@ -6,3 +6,6 @@ let accountState;
 console.log(accountId);
 
 console.table([accountId , accountEmail , accountPass , accountCity , accountState]);
+
+
+// DataType 
