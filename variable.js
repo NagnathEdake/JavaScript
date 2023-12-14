@@ -9,3 +9,5 @@ console.table([accountId , accountEmail , accountPass , accountCity , accountSta
 
 
 // DataType 
+// null
+// undefined
