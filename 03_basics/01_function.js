@@ -31,4 +31,50 @@ function loginUserMessage(userName) {
     }
 }
 
-console.log(loginUserMessage()); 
+// console.log(loginUserMessage()); 
+
+
+/******************************************************* */
+
+function calculateCartPrice(num1){
+    return num1
+}
+
+// console.log(calculateCartPrice(4));//only one value can get it
+//----------------------------------------------------------
+//rust opareter
+function calculateCart(...num2){
+    return num2;
+}
+// console.log(calculateCart(200,100,500,300));//so many value can get in array.
+//------------------------------------------------------------------------
+
+
+const user = {
+    Name : "Rohit",
+    price : 199
+}
+
+function handleObject (anyObject){
+    console.log(`Username is ${anyObject.Name} and price was ${anyObject.price}`);
+}
+// handleObject(user);
+
+// handleObject({
+//     Name : "Shantanu",
+//     price : 200
+// })//you can pass value direct in object
+
+/*************************************************************** */
+
+
+const myNewArray = [200 ,100 ,500 ,300];
+
+function returnSecondValue (getArray){
+    return getArray[1];
+}
+// console.log(returnSecondValue(myNewArray));
+// console.log(returnSecondValue([400 , 600 , 750 ,1000]));//you can write direct array.
+
+/******************************************** */
+
